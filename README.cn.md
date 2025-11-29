@@ -1,5 +1,7 @@
 # 流浪动物 (StrayAnimals) 🐾
 
+[English](README.md)
+
 <p align="center">
   <img src="img/img.png" alt="StrayAnimals" width="100%">
 </p>

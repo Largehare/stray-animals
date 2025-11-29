@@ -3,6 +3,8 @@
 
 # StrayAnimals 🐾
 
+[简体中文](README.cn.md)
+
 <p align="center">
   <img src="img/img.png" alt="StrayAnimals" width="100%">
 </p>
