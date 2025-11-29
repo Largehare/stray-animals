@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tips_item"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    >
+
+    <!--https://medium.com/android-news/mastering-shadows-in-android-e883ad2c9d5b  how to create shadow-->
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="129dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/yellow"
+        android:elevation="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/iv_goods_img"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_marginLeft="28dp"
+        android:elevation="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/brazuca_dog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.458"
+        app:riv_corner_radius="10dip" />
+
+    <TextView
+        android:id="@+id/iv_goods_name"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="32dp"
+        android:elevation="10dp"
+        android:ellipsize="end"
+        android:lines="1"
+        android:text="柯基犬好养吗？"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/iv_goods_comment"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:elevation="10dp"
+        android:ellipsize="end"
+        android:lines="3"
+        android:text="训练柯基犬在1～3个月左右为宜，一个月前的狗狗身体素质太差，不适宜接受训练，但是三个月后又会因习惯和逆反心理而导致训练效果变差。在训练时一定要首先确立自己在人狗关系中的领导 "
+
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintLeft_toLeftOf="@+id/iv_goods_name"
+        app:layout_constraintTop_toTopOf="@+id/iv_goods_name" />
+
+    <ImageView
+        android:id="@+id/iv_goods_add"
+        android:layout_width="22dp"
+        android:layout_height="27dp"
+
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="24dp"
+        android:elevation="10dp"
+        android:src="@drawable/btn_add_brown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

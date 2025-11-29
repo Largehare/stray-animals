@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.strayanimals">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StrayAnimals">
+        <activity
+            android:name=".ui.notifications.FootActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.notifications.CollectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.notifications.Setting1_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.notifications.Setting_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.encyclopedia.WebViewEncActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.encyclopedia.SearchEncActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Splash_Activity"
+            android:exported="true"
+            android:label="StrayAnimals">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.login.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".preference_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".PublishActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.post.AnimalDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AdoptActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>

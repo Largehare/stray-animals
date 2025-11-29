@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SearchTextStyle" parent="TextAppearance.AppCompat">
+        <item name="colorControlNormal">#565656</item>
+        <item name="colorControlActivated">#000</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:hint">请输入关键词</item>
+    </style>
+
+</resources>
